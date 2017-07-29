@@ -20,6 +20,7 @@ which mysql
 Once these dependencies are installed, you can run `cargo install diesel_cli`.
 
 To install the cli without these dependencies, omit the unneeded dependencies from
+the following command:
 
 ```
 cargo install diesel_cli --no-default-features --features postgres,sqlite,mysql
